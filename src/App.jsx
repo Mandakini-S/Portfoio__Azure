@@ -10,7 +10,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
+// import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
 
@@ -24,15 +24,15 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  name: "Mandakini Sapkota",
+  title: "Front end Developer and Graphics Designer",
+  email: "mandakinisapkota@gmail.com",
+  gitHub: "https://github.com/Mandakini-S",
+  instagram: "https://www.instagram.com/mandakini.yess/",
+  linkedIn: "https://www.linkedin.com/in/mandakini-s09/",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "https://twitter.com/mandakini_09",
+  youTube: "https://twitter.com/mandakini_09",
 };
 
 const primaryColor = "#4E567E";
@@ -44,7 +44,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
